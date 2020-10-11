@@ -1,7 +1,9 @@
 <template>
   <v-row>
     <v-col v-for="l in links" :key="l.title" cols="6" class="pa-2">
-      <v-btn block outlined tile ripple color="primary" :href="l.url">{{ l.title }}</v-btn>
+      <v-btn block outlined tile ripple color="primary" :href="l.url">{{
+        l.title
+      }}</v-btn>
     </v-col>
   </v-row>
 </template>
@@ -39,5 +41,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

@@ -2,6 +2,7 @@
   <v-card>
     <v-navigation-drawer floating permanent>
       <v-list dense rounded>
+        <v-subheader>栏目导航</v-subheader>
         <v-list-item
           link
           v-for="it in items.sub"
@@ -27,5 +28,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

@@ -4,7 +4,7 @@
       class="py-2 px-4 news-title text-subtitle-1 font-weight-bold primary--text"
       :style="{
         backgroundImage:
-          'url(' + require('@/assets/header_' + url + '.png') + ')'
+          'url(' + require('@/assets/header_' + url + '.jpg') + ')'
       }"
     >
       {{ title }}
@@ -16,13 +16,17 @@
         v-for="n in news.slice(0, 5)"
         :key="n.url"
       >
-        <router-link :to="'article/news/' + url + '/' + n.url">{{ n.title }}</router-link>
+        <router-link :to="'article/news/' + url + '/' + n.url">{{
+          n.title
+        }}</router-link>
       </h5>
     </v-card-text>
     <v-divider />
     <v-card-actions>
       <v-spacer />
-      <v-chip color="primary" small label :to="'/category/news/' + url">查看更多</v-chip>
+      <v-chip color="primary" small label :to="'/category/news/' + url"
+        >查看更多</v-chip
+      >
     </v-card-actions>
   </v-card>
 </template>

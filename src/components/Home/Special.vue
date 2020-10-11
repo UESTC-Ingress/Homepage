@@ -3,7 +3,7 @@
     <v-card-title
       class="py-2 px-4 news-title text-subtitle-1 font-weight-bold primary--text"
       :style="{
-        backgroundImage: 'url(' + require('@/assets/header_special.png') + ')'
+        backgroundImage: 'url(' + require('@/assets/header_special.jpg') + ')'
       }"
     >
       专题
@@ -19,5 +19,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

@@ -97,6 +97,6 @@ export default {
 }
 
 .footer-card {
-  background-image: url("~@/assets/footer_bg.png");
+  background-image: url("~@/assets/footer_bg.jpg");
 }
 </style>

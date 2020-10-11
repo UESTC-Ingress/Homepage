@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .header-img {
-  background-image: url("~@/assets/header_bg.png");
+  background-image: url("~@/assets/header_bg.jpg");
 }
 
 .header-bar {
