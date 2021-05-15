@@ -18,8 +18,8 @@
             </router-link>
           </v-card-title>
           <v-card-text>
-            根据国家有关法律法规规定和《奈安提克计划中国奇异物质研究所突发公共卫生事件应急预案》，结合敝所新冠肺炎疫情防控形势...
-            <br />
+            {{ headlines[0].desc }}
+            <br/>
             <router-link :to="'/article/news/headline/' + headlines[0].url"
               >了解更多>></router-link
             >

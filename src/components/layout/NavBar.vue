@@ -57,6 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .header-img {
+  background: round;
   background-image: url("~@/assets/header_bg.jpg");
 }
 

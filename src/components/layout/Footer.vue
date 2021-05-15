@@ -97,6 +97,7 @@ export default {
 }
 
 .footer-card {
+  background: round;
   background-image: url("~@/assets/footer_bg.jpg");
 }
 </style>

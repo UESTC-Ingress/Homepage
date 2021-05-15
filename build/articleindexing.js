@@ -51,12 +51,14 @@ function readFileInfo(path, file) {
   var title = fileContent.match(/(?<=\[title\]: <> \().*?(?=\))/g);
   var url = file.replace(".md", "");
   var time = fileContent.match(/(?<=\[time\]: <> \().*?(?=\))/g);
+  var desc = fileContent.match(/(?<=\[time\]: <> \(\w\w\w\w-\w\w-\w\w\)\n\n)(.*\n)*/g);
   if (title == null || time == null) {
     return null;
   }
   return {
     title: title[0],
     url: url,
-    time: time[0]
+    time: time[0],
+    desc: desc[0].substring(0, 50)
   };
 }
