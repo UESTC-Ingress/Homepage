@@ -16,7 +16,7 @@
                 <a class="text-muted" href="mailto:coop@nia.ac.cn">申请合作</a>
               </small></v-footer
             >
-            <v-col cols="12" md="6" lg="8">
+            <v-col cols="12" md="6" lg="8" xl="6">
               <v-img
                 @click="$router.push('/')"
                 class="header-imgshow"

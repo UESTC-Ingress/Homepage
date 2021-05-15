@@ -28,7 +28,7 @@
       <v-container>
         <v-card-text class="white--text">
           <v-row>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="6" xl="4">
               <v-img
                 class="header-imgshow"
                 contain
@@ -36,6 +36,7 @@
                 :src="require('@/assets/niacn_logo_long.png')"
               />
             </v-col>
+            <v-spacer/>
             <v-col cols="12" md="6" class="text-left">
               <p>
                 Copyright ©

@@ -18,7 +18,7 @@
             </router-link>
           </v-card-title>
           <v-card-text>
-            {{ headlines[0].desc }}
+            {{ headlines[0].desc }}...
             <br/>
             <router-link :to="'/article/news/headline/' + headlines[0].url"
               >了解更多>></router-link

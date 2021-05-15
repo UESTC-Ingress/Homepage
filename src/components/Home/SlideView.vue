@@ -14,7 +14,7 @@
         <div class="headline text-center">
           {{ slide_item.title }}
         </div>
-        <div class="body-1 text-center px-6 px-lg-12">
+        <div class="body-1 text-center px-12 px-lg-24 px-xl-36">
           {{ slide_item.desc }}
         </div>
       </div>
