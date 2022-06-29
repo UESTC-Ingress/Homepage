@@ -36,7 +36,7 @@
                 :src="require('@/assets/niacn_logo_long.png')"
               />
             </v-col>
-            <v-spacer/>
+            <v-spacer />
             <v-col cols="12" md="6" class="text-left">
               <p>
                 Copyright ©
@@ -99,6 +99,7 @@ export default {
 
 .footer-card {
   background: round;
-  background-image: url("~@/assets/footer_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("~@/assets/footer_bg.jpg");
 }
 </style>

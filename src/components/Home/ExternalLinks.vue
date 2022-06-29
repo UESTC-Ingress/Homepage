@@ -1,9 +1,10 @@
 <template>
-  <v-row>
+  <v-row no-gutters>
     <v-col v-for="l in links" :key="l.title" cols="6" class="pa-2">
-      <v-btn block outlined tile ripple color="primary" :href="l.url"><v-icon small left>{{l.icon}}</v-icon>{{
-        l.title
-      }}</v-btn>
+      <v-btn block outlined tile ripple color="primary" :href="l.url"
+        ><v-icon small left>{{ l.icon }}</v-icon
+        >{{ l.title }}</v-btn
+      >
     </v-col>
   </v-row>
 </template>

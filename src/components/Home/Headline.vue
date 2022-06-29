@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="mb-4">
     <v-row no-gutters>
       <v-col cols="12" md="6"
         ><v-carousel :height="$vuetify.breakpoint.smAndDown ? '50vh' : '100%'">
@@ -19,7 +19,7 @@
           </v-card-title>
           <v-card-text>
             {{ headlines[0].desc }}...
-            <br/>
+            <br />
             <router-link :to="'/article/news/headline/' + headlines[0].url"
               >了解更多>></router-link
             >

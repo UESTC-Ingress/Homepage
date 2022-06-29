@@ -3,9 +3,15 @@
     <section class="d-flex align-center">
       <v-container>
         <Headline />
-        <v-row>
-          <v-col cols="12" lg="8"><Banner /><NewsView /></v-col>
-          <v-col cols="12" lg="4"><ExternalLinks /> <Special /></v-col>
+        <v-row no-gutters>
+          <v-col cols="12" lg="8" class="px-2 mb-2">
+            <Banner class="mb-4" />
+            <NewsView />
+          </v-col>
+          <v-col cols="12" lg="4" class="px-2">
+            <ExternalLinks />
+            <Special />
+          </v-col>
         </v-row>
       </v-container>
     </section>
